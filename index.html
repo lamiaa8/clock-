@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>templet</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+
+
+    <!-- start section clock wall  -->
+    
+    <section>
+        <div class="all">
+            <div class="clock" id="clockwall">
+                <div class="clockWise" style="align-items:flex-end;" id="hour"><i class="hour"></i></div>
+                <div class="clockWise" id="min" style="align-items:flex-end;"><i class="min"></i></div>
+                <div class="clockWise" id="sec" style="align-items:flex-end;"><i class="sec"></i></div>
+
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- start clock number  -->
+    <section class="clockNumber" id="">
+        <div class="clock-number">
+            <div class="" id="printClock"> </div>
+        </div>
+    </section>
+
+    <!-- start section countdown  -->
+    <section class="countdown ">
+        <div class="container">
+            <div class="row align-center justify-content-center mt-5 mb-5">
+                <div class="col-lg-6">
+                    <div id="countdown">
+                        <div id='tiles'></div>
+                        <div class="labels">
+                            <li>Days</li>
+                            <li>Hours</li>
+                            <li>Mins</li>
+                            <li>Secs</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- start calculater -->
+
+    <section class="container ">
+        <div class="row align-center justify-content-center mt-5 mb-5">
+            <div class="col-lg-6 col-sm-8">
+                <div class="calc">
+                    <div class="display">
+                        <div id="display">0</div>
+                        <div id="totalofCalc">0</div>
+                    </div>
+                    <div id="controls">
+                        <ul id="buttons">
+                            <li id="btnCE" class="btnCE">CE</li>
+                            <li id="btn-c" class="btn">C</li>
+                            <li id="btn-%" class="btn">%</li>
+                            <li id="btn-clear" class="btn"><i class="fa-regular fa-circle-xmark"></i></li>
+                            
+
+                            <li class="btn " id="btnK">x/x</li>
+                            <li class="btn " id="btnO">x^2</li>
+                            <li class="btn " id="btn"><i class="fa-solid fa-square-root-variable"></i></li>
+                            <li id="btn-t" class="btn">&times;</li>
+
+
+
+                            <li class="btn numbers" id="btn-1">1</li>
+                            <li class="btn numbers" id="btn-2">2</li>
+                            <li class="btn numbers" id="btn-3">3</li>
+                            <li id="btn-d" class="btn">&divide;</li>
+
+
+                            
+                            <li class="btn numbers" id="btn-4">4</li>
+                            <li class="btn numbers" id="btn-5">5</li>
+                            <li class="btn numbers" id="btn-6">6</li>
+                            <li id="btn-m" class="btn">&minus;</li>
+
+
+                            
+                            <li class="btn numbers" id="btn-7">7</li>
+                            <li class="btn numbers" id="btn-8">8</li>
+                            <li class="btn numbers" id="btn-9">9</li> 
+                            <li id="btn-p" class="btn">&plus;</li>
+
+
+                            <li id="btnNe" class="btn">-</li>
+                            <li class="btn two-col numbers" id="btn-0">0</li>
+                            <li class="btn numbers" id="btn-dot">.</li>
+                            <li class="btn two-row" id="btn-e">&equals;</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+    
+    <section>
+        
+    </section>
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
